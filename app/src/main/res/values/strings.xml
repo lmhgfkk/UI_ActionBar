@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">UI_ActionBar</string>
+    <string name="action_search">search</string>
+    <string name="action_setting">setting</string>
+    <string name="action_share">share</string>
+    <string name="actionbar_common">普通actionbar</string>
+    <string name="actionbar_custom">自定义actionbar</string>
+    <string name="actionbar_custom_tab">actionbar+tab</string>
+    <string name="actionbar_custom_pts">actionbar+pts</string>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CustomActionbarTheme"
+           parent="Theme.AppCompat.Light">
+        <item name="actionBarStyle">@style/MyActionbar</item>
+
+    </style>
+
+    <!-- ActionBar 样式 -->
+    <style name="MyActionbar"
+        parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="background">@color/MyActionBarColor</item>
+        <item name="titleTextStyle">@style/MyActionBarTitleText</item>
+    </style>
+
+    <!-- ActionBar 标题文本 -->
+    <style name="MyActionBarTitleText"
+        parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/actionbar_text</item>
+        <!-- 文本颜色属性textColor是可以配合支持库向后兼容的 -->
+    </style>
+
+</resources>

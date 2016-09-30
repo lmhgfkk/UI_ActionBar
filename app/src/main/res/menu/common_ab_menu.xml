@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:imac="http://schemas.android.com/apk/res-auto">
+    <!--搜索,作为应用按钮显示-->
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/icon_search"
+        imac:showAsAction="ifRoom"
+        android:title="@string/action_search"/>
+    <item
+        android:id="@+id/action_share"
+        android:icon="@drawable/icon_share"
+        android:title="@string/action_share"
+        imac:showAsAction="ifRoom"/>
+    <!--设置,在溢出菜单中显示-->
+    <item
+        android:id="@+id/action_setting"
+        imac:showAsAction="never"
+        android:title="@string/action_setting"/>
+</menu>
